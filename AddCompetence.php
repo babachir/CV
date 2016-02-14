@@ -33,7 +33,7 @@ if(!isset($_SESSION['auth']))
 			<?php 
 
 			createCompetence($_POST["competence"]);
-			header('Location: CV.php');
+			header('Location: AddCompetence.php');
 
 			?>	 
 				 

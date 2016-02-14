@@ -31,7 +31,7 @@ if(!isset($_SESSION['auth']))
 			<?php 
 
 			createExp($_POST["experience"]);
-			header('Location: CV.php');
+			header('Location: AddExp.php');
 
 			?>	 
 				 

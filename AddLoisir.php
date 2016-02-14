@@ -31,7 +31,7 @@ if(!isset($_SESSION['auth']))
 			<?php 
 
 			createLoisir($_POST["loisir"]);
-			header('Location: CV.php');
+			header('Location: AddLoisir.php');
 
 			?>	 
 				 

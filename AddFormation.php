@@ -31,7 +31,7 @@ if(!isset($_SESSION['auth']))
 			<?php 
 
 			createFormation($_POST["formation"]);
-			header('Location: CV.php');
+			header('Location: AddFormation.php');
 
 			?>	 
 				 
